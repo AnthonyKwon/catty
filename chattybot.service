@@ -6,7 +6,7 @@ Wants=network-online.target
 [Service]
 Restart=always
 Type=simple
-ExecStart=/usr/bin/npm run normal
+ExecStart=/usr/bin/npm start
 WorkingDirectory=/path/to/your/chattybot
 
 [Install]
